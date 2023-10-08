@@ -24,4 +24,3 @@ dist-ssr
 *.sw?
 
 # Vite temporary folder
-.vite/
