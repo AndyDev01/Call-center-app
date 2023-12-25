@@ -1,15 +1,14 @@
-export function ArrowDown({ className }) {
+export function SortIcon() {
   return (
     <svg
-      className={className}
-      width="12"
-      height="7"
-      viewBox="0 0 12 7"
+      width="10"
+      height="8"
+      viewBox="0 0 10 8"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
       <path
-        d="M1.31953 1.15979L5.99997 5.84023L10.6804 1.15979"
+        d="M9 0.999999L4 0.999999M9 4L1 4M9 7L6 7"
         stroke="#727377"
         strokeWidth="1.25"
         strokeLinecap="round"

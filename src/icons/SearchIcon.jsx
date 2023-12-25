@@ -1,4 +1,4 @@
-export function Search({ className }) {
+export function SearchIcon({ className }) {
   return (
     <svg
       className={className}
