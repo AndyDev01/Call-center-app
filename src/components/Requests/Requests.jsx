@@ -1,7 +1,7 @@
 import {  ArrowDownIcon } from "../../icons/ArrowDownIcon";
 import { SearchIcon } from "../../icons/SearchIcon";
 import { SortIcon } from "../../icons/SortIcon";
-import { Badge } from "../Header/badge";
+import { Badge } from "../Header/Badge";
 
 
 const Requests = () => {
