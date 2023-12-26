@@ -2,13 +2,14 @@ import {  ArrowDownIcon } from "../../icons/ArrowDownIcon";
 import { SearchIcon } from "../../icons/SearchIcon";
 import { SortIcon } from "../../icons/SortIcon";
 import { Badge } from "../Header/Badge";
+import RequestsList from "./RequestsList";
 
 
 const Requests = () => {
   return (
-    <section className="px-4 max-w-[723px] h-[785px] bg-[#F4F5F8] rounded-[18px] flex-grow">
-      <div>
-        <div className="pt-[22px] pb-4 pl-[6px] flex  items-center justify-between">
+    <section className="max-w-[723px] h-[785px]  bg-[#F4F5F8] rounded-[18px] flex-grow ">
+      <div className="px-6">
+        <div className="pt-[18px] pb-4 pl-[6px] flex  items-center justify-between ">
           <div className="flex items-baseline ">
             <h1 className="text-[2rem] font-bold mr-3">Requests</h1>
             <div className="text-[1.37rem] font-medium text- text-[#727377]">
@@ -40,6 +41,7 @@ const Requests = () => {
           </Badge>
         </div>
       </div>
+      <RequestsList/>
     </section>
   );
 };
