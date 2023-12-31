@@ -29,3 +29,13 @@ body {
   top: 50%;
   transform: translateY(-50%);
 }
+
+.gradient {
+  background: #9796f0;  
+  background: -webkit-linear-gradient(to bottom, #fbc7d4, #9796f0); 
+  background: linear-gradient(to bottom, #fbc7d4, #9796f0);
+}
+
+.main-h {
+  height: calc(100vh - 80px);
+}
