@@ -1,3 +1,5 @@
+import { GitHubIcon } from "../../icons/GitHubIcon";
+
 const Header = () => {
     return (
       <header className="flex items-center justify-between w-100% bg-[#F4F5F8] h-20 shadow-slate-300 shadow-md px-8">
@@ -5,7 +7,7 @@ const Header = () => {
           Call-center app
         </h1>
         <div>
-          git logo
+          <a href="https://github.com/AndyDev01/Call-center-app" target="blank"><GitHubIcon/></a>
         </div>
       </header>
     )

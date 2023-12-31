@@ -1,3 +1,4 @@
+
 import { CardIcon } from "../../icons/CardIcon";
 import { DateIcon } from "../../icons/DateIcon";
 import { MailIcon } from "../../icons/MailIcon";
@@ -13,13 +14,11 @@ const Item = () => {
         <Status/>
       </div>
       <ul className="flex items-center gap-3 text-[#B8BBC3]  text-[11px] font-normal">
-
-        <li> <div className="flex items-center gap-1"><DateIcon size={'sm'}/> 21.02.2023</div> </li>
-        <li> <div className="flex items-center gap-1"><CardIcon size={'sm'}/> Apple Card</div> </li>
+        <li> <div className="flex items-center gap-1"><DateIcon size='sm'/> 21.02.2023</div> </li>
+        <li> <div className="flex items-center gap-1"><CardIcon size='sm'/> Apple Card</div> </li>
         <li> <div className="flex items-center gap-1"><PhoneIcon/> 341-59-15</div> </li>
         <li> <div className="flex items-center gap-1"><MailIcon/> coolmail@mail.com</div> </li>
-        <li> <div className="flex items-center gap-1"><PriorityIcon/> High</div> </li>
-
+        <li> <div className="flex items-center gap-1"><PriorityIcon size='sm'/> High</div> </li>
       </ul>
     </div>
   );
