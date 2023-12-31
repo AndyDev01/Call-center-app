@@ -4,7 +4,7 @@ import Requests from "../../components/Requests/Requests";
 
 const Main = () => {
   return (
-    <main className="flex justify-center flex-grow gap-3 mt-5">
+    <main className="flex justify-center flex-grow gap-3 pt-5 pb-10 main-h">
       <Requests />
       <Info/>
     </main>

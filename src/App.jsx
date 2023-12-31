@@ -5,7 +5,7 @@ function App() {
   return (
    <>
     <Header/>
-    <div className="px-4">
+    <div className="px-4 gradient ">
         <Main/> 
     </div>
    </>
