@@ -9,10 +9,10 @@ const Order = () => {
   return (
     <>
       <div className="flex items-center gap-2 mt-9 mb-3">
-        <DateIcon size={"lg"} />
+        <DateIcon size="lg" />
         <h2 className="font-bold text-xl">Order</h2>
       </div>
-      <div className="h-[140px] px-[14px] py-3 bg-white/80 drop-shadow-md border border-gray-100 rounded-[12px]">
+      <div className="px-[14px] py-3 bg-white/80 drop-shadow-md border border-gray-100 rounded-[12px]">
         <p className="font-medium text-xs mb-2">Contacts</p>
         <div className="flex items-center gap-4 font-medium text-sm flex-wrap">
           <div className="flex items-center gap-[6px] ">

@@ -8,7 +8,7 @@ const Client = () => {
       <div className="flex gap-3 items-center pl-8 mt-6 pt pb-5">
         <Status />
         <div className=" flex items-center gap-1 font-light text-sm text-[#B8BBC3]">
-          <PriorityIcon /> Low priority
+          <PriorityIcon size='md'/> Low priority
         </div>
       </div>
     </>
