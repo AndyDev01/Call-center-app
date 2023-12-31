@@ -8,7 +8,7 @@ import Status from "../Status";
 
 const Item = () => {
   return (
-    <div className="h-[73px] bg-white/80 drop-shadow-md  border border-gray-100 rounded-[12px] shrink-0 py-3 px-5 text-lg">
+    <div className="h-[73px] bg-white/80 drop-shadow-lg  border border-gray-200/80 rounded-[12px] shrink-0 py-3 px-5 text-lg cursor-pointer">
       <div className="flex items-center justify-between">
         <p className="text-lg font-medium">Гречеслав Крупов</p>
         <Status/>
