@@ -1,4 +1,3 @@
-
 import { CardIcon } from "../../icons/CardIcon";
 import { DateIcon } from "../../icons/DateIcon";
 import { MailIcon } from "../../icons/MailIcon";
@@ -6,19 +5,39 @@ import { PhoneIcon } from "../../icons/PhoneIcon";
 import { PriorityIcon } from "../../icons/PriorityIcon";
 import Status from "../Status";
 
-const Item = () => {
+const Item = ({ name, date, card, phone, priority, status, email }) => {
   return (
     <div className="h-[73px] bg-white/80 drop-shadow-lg  border border-gray-200/80 rounded-[12px] shrink-0 py-3 px-5 text-lg cursor-pointer">
       <div className="flex items-center justify-between">
-        <p className="text-lg font-medium">Гречеслав Крупов</p>
-        <Status/>
+        <p className="text-lg font-medium">{name}</p>
+        <Status status={status} />
       </div>
       <ul className="flex items-center gap-3 text-[#B8BBC3]  text-[11px] font-normal">
-        <li> <div className="flex items-center gap-1"><DateIcon size='sm'/> 21.02.2023</div> </li>
-        <li> <div className="flex items-center gap-1"><CardIcon size='sm'/> Apple Card</div> </li>
-        <li> <div className="flex items-center gap-1"><PhoneIcon/> 341-59-15</div> </li>
-        <li> <div className="flex items-center gap-1"><MailIcon/> coolmail@mail.com</div> </li>
-        <li> <div className="flex items-center gap-1"><PriorityIcon size='sm'/> High</div> </li>
+        <li>
+          <div className="flex items-center gap-1">
+            <DateIcon size="sm" /> {date}
+          </div>
+        </li>
+        <li>
+          <div className="flex items-center gap-1">
+            <CardIcon size="sm" /> {card}
+          </div>
+        </li>
+        <li>
+          <div className="flex items-center gap-1">
+            <PhoneIcon /> {phone}
+          </div>
+        </li>
+        <li>
+          <div className="flex items-center gap-1">
+            <MailIcon /> {email}
+          </div>
+        </li>
+        <li>
+          <div className="flex items-center gap-1">
+            <PriorityIcon size="sm" /> {priority}
+          </div>
+        </li>
       </ul>
     </div>
   );
