@@ -5,9 +5,9 @@ import { PhoneIcon } from "../../icons/PhoneIcon";
 import { PriorityIcon } from "../../icons/PriorityIcon";
 import Status from "../Status";
 
-const Item = ({ name, date, card, phone, priority, status, email }) => {
+const Item = ({ onClick, name, date, card, phone, priority, status, email}) => {
   return (
-    <div className="h-[73px] bg-white/80 drop-shadow-lg  border border-gray-200/80 rounded-[12px] shrink-0 py-3 px-5 text-lg cursor-pointer">
+    <div onClick={onClick} className="h-[73px] bg-white/80 drop-shadow-lg  border border-gray-200/80 rounded-[12px] shrink-0 py-3 px-5 text-lg cursor-pointer">
       <div className="flex items-center justify-between">
         <p className="text-lg font-medium">{name}</p>
         <Status status={status} />
