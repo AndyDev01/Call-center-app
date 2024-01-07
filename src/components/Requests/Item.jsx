@@ -14,7 +14,7 @@ const Item = ({ onClick, name, date, card, phone, priority, status, email}) => {
       </div>
       <ul className="flex items-center  text-[#B8BBC3]  text-[11px] font-normal gap-2">
         <li>
-          <div className="flex items-center gap-1 pr-2">
+          <div className="flex items-center gap-1 pr-2"> 
             <DateIcon size="sm" /> {date}
           </div>
         </li>
