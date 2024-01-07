@@ -5,7 +5,7 @@ import { MailIcon } from "../../icons/MailIcon";
 import { ManufacturedIcon } from "../../icons/ManufacturedIcon";
 import { PhoneIcon } from "../../icons/PhoneIcon";
 
-const Order = () => {
+const Order = ({selectedItem}) => {
   return (
     <>
       <div className="flex items-center gap-2 mt-9 mb-3">
@@ -17,24 +17,24 @@ const Order = () => {
         <div className="flex items-center gap-4 font-medium text-sm flex-wrap">
           <div className="flex items-center gap-[6px] ">
             <PhoneIcon size="md" />
-            <div>341-59-15</div>
+            <div>{selectedItem.phone}</div>
           </div>
 
           <div className="flex items-center gap-[6px]">
             <MailIcon size="md" />
-            <div>coolmail@mail.com</div>
+            <div>{selectedItem.email}</div>
           </div>
 
           <div className="flex items-center gap-[6px]">
             <HomeIcon />
-            <div >Maple st. 12/14</div>
+            <div >{selectedItem.address}</div>
           </div>
         </div>
         <p className="font-medium text-xs mt-4 mb-2">Product</p>
         <div className="flex items-center gap-4 font-medium text-sm flex-wrap">
           <div className="flex items-center gap-[6px]">
             <CardIcon size="md" />
-            <div>Apple Card</div>
+            <div>{selectedItem.card}</div>
           </div>
 
           <div className="flex items-center gap-[6px]">
